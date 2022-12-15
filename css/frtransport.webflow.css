@@ -888,6 +888,66 @@
   line-height: 1.2em;
 }
 
+.navbar-2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: transparent;
+  -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
+}
+
+.nav-link-4 {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 1.45em;
+  line-height: 1em;
+}
+
+.nav-link-4:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  text-shadow: 1px 1px 6px #000;
+}
+
+.nav-link-5 {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 1.45em;
+  line-height: 1em;
+}
+
+.nav-link-5:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  text-shadow: 1px 1px 6px #000;
+}
+
+.nav-link-6 {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 1.45em;
+  line-height: 1em;
+}
+
+.nav-link-6:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  text-shadow: 1px 1px 6px #000;
+}
+
+.container-3 {
+  color: #fff;
+}
+
+.brand1:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 @media screen and (min-width: 1920px) {
   .navbar {
     height: 120px;
@@ -1151,6 +1211,15 @@
 }
 
 @media screen and (max-width: 991px) {
+  .nav-link {
+    color: #000;
+  }
+
+  .nav-link-2 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
   .heading-2 {
     line-height: 4rem;
   }
@@ -1309,6 +1378,18 @@
   .text-block-9 {
     font-family: 'Open Sans', sans-serif;
     color: #f8f2f2;
+  }
+
+  .menu-button {
+    background-color: transparent;
+  }
+
+  .menu-button.w--open {
+    background-color: #2b2b2b;
+  }
+
+  .div-block-11 {
+    display: none;
   }
 }
 
@@ -1654,10 +1735,20 @@
   }
 
   .text-block-9 {
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-weight: 300;
     text-align: left;
   }
 
   .text-block-10 {
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-weight: 300;
     text-align: left;
+  }
+
+  .italic-text {
+    color: #fff;
   }
 }
